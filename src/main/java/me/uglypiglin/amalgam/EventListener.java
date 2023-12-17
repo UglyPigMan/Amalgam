@@ -9,6 +9,8 @@ import java.util.HashMap;
 
 public class EventListener extends ListenerAdapter {
 
+
+    //Make less emo?
     static HashMap<String, Integer> pingCounts = new HashMap<>();
     @Override
     public void onMessageReceived(@NotNull MessageReceivedEvent event) {

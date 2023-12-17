@@ -8,7 +8,7 @@ public class Main {
     public static JDA jda;
 
     public static void main(String[] args) throws InterruptedException {
-        jda = JDABuilder.createDefault("[DONT GIT TOKENS]").addEventListeners(new EventListener()).build().awaitReady();
+        jda = JDABuilder.createDefault("[nope lol]").addEventListeners(new EventListener()).build().awaitReady();
 
     }
 }
